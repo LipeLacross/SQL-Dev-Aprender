@@ -1,11 +1,11 @@
-SELECT TOP 10 SUM(linetotal) AS 'Soma'--Soma da coluna Linetotal
+SELECT TOP 10 SUM(Linetotal) AS 'Soma'--Soma da coluna inteira com Linetotal
 FROM Sales.SalesOrderDetail
 
-SELECT TOP 10 MAX(LINEtotal) AS 'Valor M�ximo'
+SELECT TOP 10 MAX(LINEtotal) AS 'Valor Maximo'
 FROM Sales.SalesOrderDetail
 
-SELECT TOP 10 MIN(LINEtotal) AS 'Valor M�nimo'
+SELECT TOP 10 MIN(LINEtotal) AS 'Valor Minimo'
 FROM Sales.SalesOrderDetail
 
-SELECT TOP 10 AVG(LINEtotal) AS 'M�dia'
+SELECT TOP 10 AVG(LINEtotal) AS 'Media'
 FROM Sales.SalesOrderDetail
