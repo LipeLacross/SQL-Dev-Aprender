@@ -14,8 +14,8 @@ SELECT TOP 10 ProductID,SUM(LineTotal)
 FROM Sales.SalesOrderDetail
 GROUP BY ProductID
 ORDER BY SUM(LineTotal) DESC
-
---4-Eu preciso saber quantos produtos e qual e quantidade media de produtos temos cadastrados nas nossas ordem de servi¢o (WorkOrder), agrupados por productId
+
+--4-Eu preciso saber quantos produtos e qual e quantidade media de produtos temos cadastrados nas nossas ordem de serviï¿½o (WorkOrder), agrupados por productId
 SELECT *
 FROM production.WorkOrder
 

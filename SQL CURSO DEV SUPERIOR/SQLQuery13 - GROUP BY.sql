@@ -13,21 +13,20 @@ WHERE SpecialOfferID = 9
 SELECT ProductId, COUNT(ProductId) AS "CONTAGEM"
 FROM Sales.SalesOrderDetail
 GROUP BY ProductID
- 
+
 
 --Vamos dizer que eu quero saber quantos nomes de cada nome temos cadastrado em nosso banco de dados
 SELECT FirstName,COUNT(FirstName) AS "CONTAGEM"
 FROM Person.Person
 GROUP BY FirstName
 
- 
 
---na tabela production.product eu quero saber a média de preco para os produtos que sao pratas(silver)
 
-SELECT Color, AVG(ListPrice) AS "Preço media"
+--na tabela production.product eu quero saber a mï¿½dia de preco para os produtos que sao pratas(silver)
+
+SELECT Color, AVG(ListPrice) AS "Preï¿½o media"
 From Production.Product
 WHERE Color = 'Silver'
 GROUP BY Color
-
- 
-
+
+
