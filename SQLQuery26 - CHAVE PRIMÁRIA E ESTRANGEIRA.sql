@@ -1,0 +1,14 @@
+--CHAVE PRIMARIA 
+--E basicamente uma coluna ou grupo de colunas, usada para identificar unicamente uma linha em uma tabela
+--Voce consegue criar essas chaves primarias atraves de restricoes(ou constraints em ingles) que sao regras que voce define quando esta criando uma coluna
+--Assim quando voce faz isso voce esta criando um indice unico para aquela coluna ou grupo de colunas
+--CREATE TABLE nome_Tabela (
+--nomeColuna tipoDeDado PRIMARY KEY
+--)
+
+--CHAVE ESTRANGEIRA
+--E basicamente uma coluna ou grupo de colunas, usada para identificar unicamente uma linha em uma tabela
+--E difinida em uma tabela onde ela e apenas uma regerencia e nao contem todos os dados ali
+--Entao e simplesmente uma coluna ou grupo de colunas que é uma chave primaria em outra tabela 
+--A tabela que contem uma chave estrangeira e chamda de tabela referenciadora ou tabela filho. E a tabela na qual a chave estrangeira e regenciada e chamda de tabela refenciada ou tabela pai
+--Uma tabela pode ter mais de uma chave estrangeira dependendo do seu relacionamento com as outras tabelas
